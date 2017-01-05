@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-05 15:22-0200\n"
+"POT-Creation-Date: 2017-01-05 16:55-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/boiko/src/build-qmamemenu-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_16_04-Default/po/qmamemenu.desktop.in.h:1
+#: /home/boiko/src/qmamemenu/build/po/qmamemenu.desktop.in.h:1
 msgid "qmamemenu"
 msgstr ""

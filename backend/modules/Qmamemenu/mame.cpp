@@ -24,8 +24,7 @@ QString Mame::getRomDescription(const QString &romName)
 
 void Mame::run(const QString &romName)
 {
-    QProcess proc;
-    proc.start("/usr/games/mame", QStringList() << "-skip_gameinfo" << romName);
-    proc.waitForFinished();
-    qDebug() << proc.exitCode() << proc.exitStatus();
+    QProcess *proc = new QProcess();
+    QObject::connect(proc, SIGNAL(finished(int)), proc, SLOT(deleteLater()));
+    proc->start("/usr/games/mame", QStringList() << "-skip_gameinfo" << romName);
 }
