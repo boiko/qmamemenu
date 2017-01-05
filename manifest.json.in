@@ -1,0 +1,16 @@
+{
+    "name": "@APP_ID@",
+    "description": "description of qmamemenu",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "qmamemenu": {
+            "apparmor": "qmamemenu.apparmor",
+            "desktop":  "qmamemenu.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Gustavo Pichorim Boiko <gustavo.boiko@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+

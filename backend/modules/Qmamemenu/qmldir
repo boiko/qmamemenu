@@ -1,0 +1,2 @@
+module Qmamemenu
+plugin Qmamemenubackend
